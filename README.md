@@ -14,6 +14,8 @@ Beide worden via de I2C-bus uitgelezen.
  
 ## Software
 De BME680 en de SCD30 sensoren worden via de I2C-bus aangesloten.
+https://learn.adafruit.com/adafruit-bme680-humidity-temperature-barometic-pressure-voc-gas/python-circuitpython en
+https://pypi.org/project/adafruit-circuitpython-scd30/
 Beide sensoren worden geregeld uitgelezen en hun data opgeslagen in een file. Hiervoor maken we telkens gebruik van een array. 
 Zo bekomen we een 2D array of een array in een array. Deze data kan later uitgelezen worden om eventueel grafieken te maken. 
 Voor dit project worden wijzers gebruikt om de huidige waarden zichbaar te maken.
